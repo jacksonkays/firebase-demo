@@ -1,7 +1,7 @@
 <html>
 
   <head>
-    <title> Finish Task. </title>
+    <title> Todo List App </title>
     <link rel="icon" href="to-do-list.png" type="image/png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="finish_task.css" type="text/css">
@@ -11,7 +11,7 @@
   <body onload="create_unfinished_task(), create_finished_task()">
     <div id="content_container">
       <div id="finish_task_header">
-        <p> Finish Task. </p>
+        <h1> Todo List App </h1>
       </div>
 
       <div id="task_input_container">
@@ -23,7 +23,7 @@
       </div>
 
       <!-- Task To Do -->
-      <p class="header"> Task </p>
+      <h3 class="header"> Finished Tasks </h3>
       <div class="container">
 
         <div id="task_tool">
@@ -34,31 +34,6 @@
 
       </div>
 
-
-      <!-- Tasks Done -->
-      <p class="header"> Finished </p>
-      <div class="container">
-
-        <div class="task_container">
-          <div id="task_data">
-            <p id="task_title" contenteditable="false"> Task Title 1 </p>
-            <p id="task_date" contenteditable="false"> Task Date 1 </p>
-          </div>
-        </div>
-        <div class="task_container">
-          <div id="task_data">
-            <p id="task_title" contenteditable="false"> Task Title 2 </p>
-            <p id="task_date" contenteditable="false"> Task Date 2 </p>
-          </div>
-        </div>
-        <div class="task_container">
-          <div id="task_data">
-            <p id="task_title" contenteditable="false"> Task Title 3 </p>
-            <p id="task_date" contenteditable="false"> Task Date 3 </p>
-          </div>
-        </div>
-
-      </div>
     </div>
 
     <script src="finish_task.js"> </script>
